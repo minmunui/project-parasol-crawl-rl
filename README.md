@@ -6,6 +6,8 @@
 ## 프로젝트 소개
 
 웹 크롤링을 통해 데이터를 수집하고 수집한 데이터를 이용하여 강화학습 모델을 생성, 예측을 생성하는 프로젝트입니다.
+<img width="608" alt="image" src="https://github.com/minmunui/project-parasol-crawl-rl/assets/82745129/764b18c9-c35a-46de-b613-d04578fd971a">
+
 
 ## 프로젝트 구조
 
