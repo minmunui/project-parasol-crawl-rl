@@ -108,7 +108,7 @@ class MyEnv(gym.Env):
             ),
 
             # 주가데이터는 종목의 수 * 사용할 데이터 수
-            "data": gym.spaces.Box(
+            "stock_data": gym.spaces.Box(
                 low=np.inf,
                 high=np.inf,
                 shape=self.shape,
@@ -144,7 +144,7 @@ class MyEnv(gym.Env):
         # 각 종목의 데이터를 가져와서 stock_info, self.prices에 추가
         self._stock_data = self.df[(self._current_index - self.window_size + 1):self._current_index + 1].values
         # 각종 정보를 state에 추가
-        self._state['data'] = self._stock_data
+        self._state['stock_data'] = self._stock_data
         self._state['holding'] = self._current_proportion
         # 이전의 환경과 비슷한 느낌?
         # self._state['avg_buy_price'] = self._avg_buy_price
