@@ -87,7 +87,7 @@ Date,Close,대비,등락률,EPS,PER,BPS,PBR,주당배당금,배당수익률,회�
 #### 5. 생성된 강화학습 모델을 이용하여 예측
 
 ```bash
-python ./test_rl.py --stock sk_hynix --holding 0 --algo dqn --data_column Date Close 대비 등락률 BPS PBR 주당배당금 배 당수익률 --model_path ./models/sk_hynix/dqn/dqn_0.0001_1000000_256.zip --data_path ./data/A_dataset/SK하이닉스.csv --start_date 2022/01/03 --end_date 2023/10/19
+python ./test_rl.py --stock sk_hynix --holding 0 --algo dqn --data_column Date Close 대비 등락률 BPS PBR 주당배당금 배당수익률 --model_path ./models/sk_hynix/dqn/dqn_0.0001_1000000_256.zip --data_path ./data/A_dataset/SK하이닉스.csv --start_date 2022/01/03 --end_date 2023/10/19
 ```
 
 ```
@@ -101,3 +101,9 @@ python ./test_rl.py --stock sk_hynix --holding 0 --algo dqn --data_column Date C
 --start_date : 학습 시작 날짜
 --end_date : 학습 종료 날짜
 ```
+#### 6. test 로그 확인
+
+`data`에 생성된 로그를 확인합니다. 로그는 `csv` 파일로 생성됩니다.
+
+0은 매수, 1은 매도, 2는 관망을 의미합니다.
+
