@@ -1,6 +1,6 @@
 # project-parasol-crawl-rl
 
-<img alt="python" src ="https://img.shields.io/badge/python-3.10.12-3776AB.svg?&style=for-the-badge&logo=python&logoColor=white"/><img alt="anaconda" src ="https://img.shields.io/badge/anaconda-23.3.1-3776AB.svg?&style=for-the-badge&logo=anaconda&logoColor=white"/><img alt="pyTorch" src ="https://img.shields.io/badge/pyTorch-2.1.0-3776AB.svg?&style=for-the-badge&logo=pyTorch&logoColor=white"/>
+<img alt="python" src ="https://img.shields.io/badge/python-3.10.12-3776AB.svg?&style=for-the-badge&logo=python&logoColor=white"/>  <img alt="anaconda" src ="https://img.shields.io/badge/anaconda-23.3.1-3776AB.svg?&style=for-the-badge&logo=anaconda&logoColor=white"/>  <img alt="pyTorch" src ="https://img.shields.io/badge/pyTorch-2.1.0-3776AB.svg?&style=for-the-badge&logo=pyTorch&logoColor=white"/>
 
 
 ## 프로젝트 소개
