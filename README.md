@@ -115,7 +115,8 @@ python test_rl_graph.py --stock sk_hynix --holding 0 --algo dqn --data_column Da
 ```
 #### 6. test 로그 확인
 
-`data`에 생성된 로그를 확인합니다. 로그는 `csv` 파일로 생성됩니다.
+`data/`에 생성된 로그를 확인합니다. 로그는 `csv` 파일로 생성됩니다.
 
 0은 매수, 1은 매도, 2는 관망을 의미합니다.
 
+결과 그래프는 `images/`에 생성됩니다.

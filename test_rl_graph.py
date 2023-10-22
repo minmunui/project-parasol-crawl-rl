@@ -130,6 +130,11 @@ def get_action(model, args): # 날짜를 주면?
         plt.title('Profit Graph')
         plt.legend()
 
+        if not os.path.exists(f'./images'):
+            os.makedirs(f'./images')
+
+        plt.savefig(f"./images/{args.stock}.png")
+
         plt.show()
     return datas
 
